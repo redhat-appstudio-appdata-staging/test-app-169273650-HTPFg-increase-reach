@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: java-quarkus-169273650
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/jeff-phillips-18-tenant/test-app-169273650/java-quarkus-169273650@sha256:4b14e35ecd5c3a35d6eacbbccdd06cabe623e0d53e38dd02cfbab85f5577f0e8
+        name: my-java-quarkus
+        resources: {}
+status: {}
